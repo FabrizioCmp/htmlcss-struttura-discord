@@ -60,6 +60,9 @@ div > ul{
 .gsea{
     background-color: lightseagreen;
 }
+.lgsea{
+    background-color: rgb(131, 255, 249);
+}
 
 .black{
     background-color: rgb(34, 34, 34);
@@ -115,4 +118,22 @@ div > ul{
 .foot1{
     padding-top: 0.3rem;
     padding-bottom: 1rem;
+}
+
+.foot2{
+    padding-top: 0.5rem;
+}
+
+.pos-content{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pddg{
+    padding: 0.3rem;
+}
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: white;
 }
