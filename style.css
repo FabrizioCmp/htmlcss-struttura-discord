@@ -3,3 +3,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+section{
+    padding: 40px 0;
+    border: 1px solid green
+}
+header{
+    background-color: lightblue;
+    padding: 1rem 0;
+}
+div > ul{
+    gap: 1rem;
+    list-style: none;
+    
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.w720{
+    width: 720px;
+}
+
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: grey;
+}
+.flex{
+    display: flex;
+}
+
+.row{
+    display: flex;    
+    border: 1px solid blue;
+    padding: 2rem;
+}
+
+.col{
+   padding: 1rem;
+   background-color: orange;
+}
+
+.header-center{
+    flex-grow: 3;
+    border: 1px dotted black;
+    justify-content: center;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.right{
+    justify-content: end;
+}
