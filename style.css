@@ -21,7 +21,6 @@ div > ul{
 .container{
     width: 920px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .w720{
@@ -49,8 +48,21 @@ div > ul{
 .green{
     background-color: green;
 }
+.pink2{
+    background-color: rgb(226, 146, 159);
+}
 .flex{
     display: flex;
+}
+.right{
+    justify-content: end;
+}
+.gsea{
+    background-color: lightseagreen;
+}
+
+.black{
+    background-color: rgb(34, 34, 34);
 }
 
 .row{
@@ -65,7 +77,6 @@ div > ul{
 }
 
 .header-center{
-    flex-grow: 3;
     border: 1px dotted black;
     justify-content: center;
 }
@@ -81,6 +92,10 @@ div > ul{
     justify-content: end;
 }
 
+.h50{
+    height: 50px;
+}
+
 .h200{
     height: 200px;
 }
@@ -91,4 +106,13 @@ div > ul{
 
 .h600{
     height: 600px;
+}
+
+.borderw{
+    border: 1px dotted white;
+}
+
+.foot1{
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
 }
