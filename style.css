@@ -29,16 +29,25 @@ div > ul{
 }
 
 .blue{
-    background-color: blue;
+    background-color: rgb(0, 0, 155);
+}
+.lblue{
+    background-color: rgb(0, 136, 255);
 }
 .pink{
+    background-color: rgb(243, 127, 204);
+}
+.lpink{
     background-color: pink;
 }
 .orange{
     background-color: orange;
 }
 .grey{
-    background-color: grey;
+    background-color: rgb(211, 210, 210);
+}
+.green{
+    background-color: green;
 }
 .flex{
     display: flex;
@@ -61,10 +70,25 @@ div > ul{
     justify-content: center;
 }
 
-.grow{
+.grow1{
     flex-grow: 1;
+}
+.grow2{
+    flex-grow: 2;
 }
 
 .right{
     justify-content: end;
+}
+
+.h200{
+    height: 200px;
+}
+
+.h300{
+    height: 300px;
+}
+
+.h600{
+    height: 600px;
 }
